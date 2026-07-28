@@ -7,12 +7,12 @@ export function Cta() {
   const anim = useScrollAnimation("up");
 
   return (
-    <section className="py-24 lg:py-32">
+    <section className="section-padding">
       <div ref={anim.refCallback} className={`max-w-4xl mx-auto px-4 text-center ${anim.animationClass}`}>
         <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
           Votre sourire mérite le meilleur
         </span>
-        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-8">
+        <h2 className="section-title text-foreground mt-4 mb-8">
           Demandez Votre Plan de Soins Sur Mesure
         </h2>
         <a

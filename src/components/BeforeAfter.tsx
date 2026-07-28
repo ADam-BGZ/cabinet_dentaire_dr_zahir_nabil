@@ -39,14 +39,14 @@ export function BeforeAfter() {
   };
 
   return (
-    <section id="before-after" className="py-24 lg:py-48 bg-muted">
+    <section id="before-after" className="section-padding bg-muted">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div ref={header.refCallback} className={`text-center max-w-2xl mx-auto mb-20 ${header.animationClass}`}>
           <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
             Cas Cliniques du Dr. ZAHIR
           </span>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6">
+          <h2 className="section-title text-foreground mt-4 mb-6">
             Avant &amp; Après : Nos Succès
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">

@@ -61,7 +61,7 @@ export function Hero() {
   const slide = slides[current];
 
   return (
-    <section className="relative min-h-[600px] sm:min-h-[700px] lg:min-h-[900px] flex items-center overflow-hidden">
+    <section className="relative min-h-[calc(100dvh-7rem)] sm:min-h-[calc(100dvh-8rem)] lg:min-h-[calc(100dvh-9rem)] flex items-center overflow-hidden">
       {/* Backgrounds */}
       {slides.map((s, i) => (
         <div
@@ -75,7 +75,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#0A2647]/95 via-[#0A2647]/85 to-[#0A2647]/70" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 py-24 sm:py-32 lg:py-40 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 sm:py-20 w-full">
         <div className="max-w-2xl">
           <div key={`badge-${current}`} className="animate-fade-in-down">
             <span className="inline-block bg-secondary/20 text-secondary text-sm font-semibold uppercase tracking-wider px-4 py-2 rounded-full mb-6">

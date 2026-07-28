@@ -177,7 +177,7 @@
 
 .marquee-track {
   display: inline-flex;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 80s linear infinite;
 }
 
 /* ===== ROTATING ICON ===== */
@@ -194,6 +194,44 @@
   animation: line-path 4s linear infinite alternate;
 }
 
+/* ===== SECTION SPACING (token unique) ===== */
+
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* ===== SECTION TITLE (h2 unique standard) ===== */
+
+.section-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.875rem;
+}
+
+@media (min-width: 640px) {
+  .section-title { font-size: 2.25rem; }
+}
+
+@media (min-width: 1024px) {
+  .section-title { font-size: 3rem; }
+}
+
 /* ===== SECTION DIVIDER ===== */
 
 .section-divider {
@@ -202,7 +240,8 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 .section-divider::before,

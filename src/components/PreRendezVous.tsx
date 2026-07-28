@@ -7,13 +7,13 @@ export function PreRendezVous() {
   const anim = useScrollAnimation("up");
 
   return (
-    <section className="py-24 lg:py-32">
+    <section className="section-padding">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <div ref={anim.refCallback} className={`${anim.animationClass}`}>
           <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
             Prendre Rendez-Vous
           </span>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6">
+          <h2 className="section-title text-foreground mt-4 mb-6">
             Votre santé bucco-dentaire nous tient à cœur
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed mb-4 max-w-2xl mx-auto">

@@ -17,23 +17,23 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <About />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <Services />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <BeforeAfter />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <Stats />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <Cta />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <Testimonials />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <Faq />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <PreRendezVous />
-        <div className="section-divider py-8"><div className="section-divider-dot" /></div>
+        <div className="section-divider"><div className="section-divider-dot" /></div>
         <EmergencyCta />
       </main>
       <Footer />

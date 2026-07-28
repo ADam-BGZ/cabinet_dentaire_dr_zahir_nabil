@@ -28,7 +28,7 @@ export function Stats() {
   const right = useScrollAnimation("right");
 
   return (
-    <section className="py-24 lg:py-48 bg-gradient-to-b from-background via-muted/30 to-background">
+    <section className="section-padding bg-gradient-to-b from-background via-muted/30 to-background">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
           {/* Left Content */}
@@ -36,7 +36,7 @@ export function Stats() {
             <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
               Notre Impact
             </span>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6">
+            <h2 className="section-title text-foreground mt-4 mb-6">
               Pourquoi choisir le Dr. ZAHIR Nabil ?
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed">

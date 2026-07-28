@@ -22,7 +22,7 @@ export function About() {
   const right = useScrollAnimation("right");
 
   return (
-    <section id="about" className="py-24 lg:py-40">
+    <section id="about" className="section-padding">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           {/* Left Content */}
@@ -30,7 +30,7 @@ export function About() {
             <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
               À propos
             </span>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6 leading-tight">
+            <h2 className="section-title text-foreground mt-4 mb-6">
               Cabinet Dr. ZAHIR Nabil
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed mb-4">

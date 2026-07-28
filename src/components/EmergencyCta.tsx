@@ -14,7 +14,7 @@ export function EmergencyCta() {
   const right = useScrollAnimation("right");
 
   return (
-    <section className="bg-primary py-20 lg:py-28">
+    <section className="bg-primary section-padding">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left - Phone */}
@@ -32,7 +32,7 @@ export function EmergencyCta() {
 
           {/* Right - Content */}
           <div ref={right.refCallback} className={`text-center lg:text-right ${right.animationClass}`}>
-            <h2 className="font-heading text-2xl sm:text-3xl font-bold text-white mb-4">
+            <h2 className="section-title text-white mb-4">
               Au-Delà des Soins Dentaires
             </h2>
             <p className="text-white/80 text-sm leading-relaxed mb-4 max-w-xl">
