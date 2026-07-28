@@ -6,34 +6,34 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const faqs = [
   {
-    question: "Comment prendre rendez-vous au Wilaya Dental Center ?",
+    question: "Comment prendre rendez-vous au cabinet du Dr. ZAHIR Nabil ?",
     answer:
-      "Vous pouvez prendre rendez-vous par téléphone au +212 6 68 67 68 34, via WhatsApp, ou en remplissant le formulaire de contact. Nous offrons des créneaux flexibles du lundi au vendredi de 9h à 18h, et le samedi de 9h à 13h.",
+      "Vous pouvez prendre rendez-vous par téléphone au +212 668-142427, via WhatsApp, ou en nous contactant directement. Les consultations se font du lundi au vendredi de 09h00 à 13h00 et de 15h00 à 19h00, et le samedi de 09h00 à 14h00.",
   },
   {
     question: "Quels types de soins propose le cabinet ?",
     answer:
-      "Notre cabinet est organisé en 4 pôles spécialisés : Chirurgie & Implants, Esthétique dentaire (blanchiment, facettes, smile design), Orthodontie (bagues et aligneurs transparents), et Soins Généraux (détartrage, caries, prothèses). Nous disposons également d'un scanner CBCT 3D sur place.",
-  },
-  {
-    question: "Le scanner CBCT 3D est-il disponible au cabinet ?",
-    answer:
-      "Oui, nous disposons d'un cone beam (CBCT) 3D de dernière génération pour des diagnostics précis en implantologie, chirurgie et orthodontie. Les images sont analyées directement par le Dr. Nam pour un plan de traitement optimal.",
-  },
-  {
-    question: "Acceptez-vous les enfants ?",
-    answer:
-      "Absolument ! Notre cabinet accueille les patients de tous les âges. Notre équipe est formée pour offrir un environnement rassurant aux plus jeunes, avec des soins préventifs et traitements adaptés à chaque tranche d'âge.",
-  },
-  {
-    question: "Quels moyens de paiement acceptez-vous ?",
-    answer:
-      "Nous acceptons les paiements en espèces, par carte bancaire et par chèque. {/* TODO: Ajouter les autres moyens de paiement acceptés par le cabinet (Virement, Amex, etc.) */} Des facilités de paiement peuvent être proposées pour les traitements de longue durée.",
+      "Le cabinet du Dr. ZAHIR Nabil couvre 6 domaines : soins généraux (consultations, détartrage, caries, extractions), implantologie (pose d'implants), prothèses dentaires (couronnes, bridges, fixes/amovibles), orthodontie (alignement enfants et adultes), esthétique dentaire (blanchiment professionnel, facettes) et parodontie (soins des gencives).",
   },
   {
     question: "Faut-il une ordonnance pour consulter ?",
     answer:
-      "Non, aucune ordonnance n'est nécessaire pour consulter au Wilaya Dental Center. Vous pouvez prendre rendez-vous directement par téléphone ou via notre site. Le Dr. Nam établira un plan de traitement personnalisé lors de votre première visite.",
+      "Non, aucune ordonnance n'est nécessaire pour consulter le Dr. ZAHIR Nabil. Vous pouvez prendre rendez-vous directement par téléphone au +212 668-142427 ou via notre site. Le Dr. ZAHIR établira un plan de traitement personnalisé lors de votre première visite.",
+  },
+  {
+    question: "Acceptez-vous les enfants ?",
+    answer:
+      "Absolument ! Le cabinet accueille les patients de tous les âges. Le Dr. ZAHIR Nabil offre un environnement rassurant aux plus jeunes, avec des soins préventifs et des traitements adaptés à chaque tranche d'âge.",
+  },
+  {
+    question: "Quels moyens de paiement acceptez-vous ?",
+    answer:
+      "Nous acceptons les paiements en espèces, par carte bancaire et par chèque. Des facilités de paiement peuvent être proposées pour les traitements de longue durée.",
+  },
+  {
+    question: "Où se situe le cabinet du Dr. ZAHIR Nabil ?",
+    answer:
+      "Le cabinet est situé à la Résidence Ain Meloul, Sabbah 5, Entre-étage, Appartement 2, Quartier Wilaya, Tétouan. Un parking gratuit est disponible à proximité et l'accès est facilité pour les personnes à mobilité réduite.",
   },
 ];
 

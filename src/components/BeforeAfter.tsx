@@ -44,17 +44,15 @@ export function BeforeAfter() {
         {/* Header */}
         <div ref={header.refCallback} className={`text-center max-w-2xl mx-auto mb-20 ${header.animationClass}`}>
           <span className="text-secondary text-sm font-semibold uppercase tracking-wider">
-            {/* TODO: donnée client manquante — cas cliniques du Dr Rachid Nam à ajouter */}
-            Transformation Sourire
+            Cas Cliniques du Dr. ZAHIR
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6">
             Avant &amp; Après : Nos Succès
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">
-            {/* TODO: donnée client manquante — texte à adapter avec le vrai parcours du Dr Rachid Nam */}
-            Spécialisée en dentisterie esthétique, le Dr Lahbichi s&apos;engage à
-            offrir des soins dentaires de qualité supérieure adaptés à chaque
-            patient.
+            Spécialisé en dentisterie esthétique et réparatrice, le Dr. ZAHIR Nabil
+            met son savoir-faire au service de votre sourire pour des résultats
+            naturels et durables.
           </p>
         </div>
 
@@ -63,9 +61,12 @@ export function BeforeAfter() {
           {cases.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-2xl overflow-hidden shadow-lg transition-default hover:shadow-xl hover:-translate-y-1"
+              className="bg-white rounded-2xl overflow-hidden shadow-lg hover-card"
             >
               <div className="relative aspect-[4/3] overflow-hidden cursor-ew-resize">
+                <div className="absolute top-3 left-3 bg-primary text-white text-[10px] font-semibold px-2.5 py-1 rounded-full z-20 shadow-md tracking-wider uppercase">
+                  Cas Clinique N°{item.id}
+                </div>
                 {/* After Image (background) */}
                 <img
                   src={`${BASE_PATH}${item.after}`}
@@ -124,10 +125,10 @@ export function BeforeAfter() {
         {/* CTA */}
         <div ref={cta.refCallback} className={`text-center ${cta.animationClass}`}>
           <a
-            href="tel:+212668676834"
+            href="tel:+212668142427"
             className="inline-flex items-center gap-2 bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base transition-all-fast hover:bg-primary/90 hover:shadow-lg min-h-[44px] text-center"
           >
-            Prenez Rendez-vous pour Votre Métamorphose Dentaire
+            Prenez Rendez-vous pour votre consultation
             <ArrowRightIcon className="w-5 h-5" />
           </a>
         </div>

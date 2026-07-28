@@ -20,14 +20,13 @@ export function EmergencyCta() {
           {/* Left - Phone */}
           <div ref={left.refCallback} className={`text-center lg:text-left ${left.animationClass}`}>
             <span className="text-accent text-sm font-semibold uppercase tracking-wider">
-              {/* TODO: Confirmer si le cabinet offre un service d'urgence */}
               Besoin d&apos;un rendez-vous ?
             </span>
             <a
-              href="tel:+212668676834"
+              href="tel:+212668142427"
               className="block text-2xl sm:text-3xl lg:text-4xl font-bold text-white mt-4 transition-all-fast hover:text-accent break-all sm:break-normal"
             >
-              +212 6 68 67 68 34
+              +212 668-142427
             </a>
           </div>
 
@@ -37,10 +36,10 @@ export function EmergencyCta() {
               Au-Delà des Soins Dentaires
             </h2>
             <p className="text-white/80 text-sm leading-relaxed mb-4 max-w-xl">
-              Le Wilaya Dental Center de Tétouan, dirigé par le Dr. Rachid Nam,
-              offre des soins dentaires d&apos;exception pour patients de tous âges.
-              De la prévention aux traitements complexes, nous proposons une
-              approche globale pour votre santé bucco-dentaire.
+              Le cabinet du Dr. ZAHIR Nabil à Tétouan offre des soins dentaires
+              d&apos;exception pour patients de tous âges. De la prévention aux
+              traitements complexes, une approche globale pour votre santé
+              bucco-dentaire.
             </p>
             <div className="flex flex-wrap justify-center lg:justify-end gap-4 mb-6">
               {features.map((feature) => (
@@ -54,7 +53,7 @@ export function EmergencyCta() {
               ))}
             </div>
             <a
-              href="tel:+212668676834"
+              href="tel:+212668142427"
               className="inline-flex items-center gap-2 bg-accent text-foreground px-6 sm:px-8 py-3 rounded-lg font-semibold text-sm transition-all-fast hover:bg-accent/90 min-h-[44px]"
             >
               Prenez votre rendez-vous

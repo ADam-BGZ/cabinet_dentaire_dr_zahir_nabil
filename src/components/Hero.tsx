@@ -6,45 +6,45 @@ import { BASE_PATH } from "@/lib/utils";
 
 const slides = [
   {
-    badge: "Clinique Dentaire à Tétouan",
+    badge: "Chirurgien-Dentiste à Tétouan",
     title: (
       <>
-        Wilaya Dental
+        Dr. ZAHIR
         <br />
-        <span className="text-secondary">Center Nam</span>
+        <span className="text-secondary">Nabil</span>
       </>
     ),
     description:
-      "Clinique dentaire multidisciplinaire au cœur de Tétouan. Soins d'exception par Dr. Rachid Nam, où votre sourire est notre priorité.",
+      "Ancien médecin-chef des services sociaux militaires de Tétouan, le Dr. ZAHIR Nabil vous accueille dans son cabinet pour des soins dentaires d'excellence, alliant expertise et bienveillance.",
     image: "/images/img-hero-reception.webp",
   },
   {
-    badge: "Esthétique Dentaire",
+    badge: "Soins Dentaires Complets",
     title: (
       <>
-        Souriez en{" "}
-        <span className="text-secondary">Confiance</span>
+        Toutes les{" "}
+        <span className="text-secondary">Spécialités</span>
       </>
     ),
     description:
-      "Blanchiment dentaire, facettes et smile design. Transformez votre sourire avec nos solutions esthétiques modernes et personnalisées.",
+      "Implantologie, orthodontie, esthétique dentaire, prothèses, parodontie et soins généraux. Une prise en charge pluridisciplinaire pour toute la famille.",
     image: "/images/bg-52.webp",
   },
   {
-    badge: "Technologie de Pointe",
+    badge: "Expertise & Technologie",
     title: (
       <>
-        Imagerie{" "}
-        <span className="text-secondary">3D / CBCT</span>
+        Un Sourire{" "}
+        <span className="text-secondary">d&apos;Exception</span>
       </>
     ),
     description:
-      "Imagerie radiologique 3D intégrée au centre pour des diagnostics précis et des traitements planifiés avec une précision maximale.",
-    image: "/images/bg-52.webp",
+      "Soins personnalisés dans un cadre moderne et rassurant. Le Dr. ZAHIR Nabil met son expérience au service de votre santé bucco-dentaire.",
+    image: "/images/img-20.webp",
   },
 ];
 
-const services = ["IMPLANTOLOGIE", "ESTHÉTIQUE", "ORTHODONTIE", "SOINS GÉNÉRAUX"];
+const services = ["IMPLANTOLOGIE", "ORTHODONTIE", "ESTHÉTIQUE", "PROTHÈSES", "PARODONTIE", "SOINS GÉNÉRAUX"];
 
 export function Hero() {
   const [current, setCurrent] = useState(0);
@@ -72,7 +72,7 @@ export function Hero() {
           style={{ backgroundImage: `url('${BASE_PATH}${s.image}')` }}
         />
       ))}
-      <div className="absolute inset-0 bg-primary/80" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0A2647]/95 via-[#0A2647]/85 to-[#0A2647]/70" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-24 sm:py-32 lg:py-40 w-full">
@@ -93,10 +93,10 @@ export function Hero() {
             </p>
 
             <a
-              href="tel:+212668676834"
+              href="tel:+212668142427"
               className="inline-flex items-center gap-2 bg-secondary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base transition-all-fast hover:bg-secondary/90 min-h-[44px]"
             >
-              Réservez votre rendez-vous
+              Prenez rendez-vous
               <ArrowRightIcon className="w-5 h-5" />
             </a>
           </div>

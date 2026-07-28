@@ -2,7 +2,6 @@
 
 import {
   PhoneIcon,
-  MailIcon,
   MapPinIcon,
   ClockIcon,
 } from "@/components/icons";
@@ -18,59 +17,40 @@ const quickLinks = [
 ];
 
 const contactItems = [
-  { icon: PhoneIcon, text: "+212 6 68 67 68 34", href: "tel:+212668676834" },
-  {
-    icon: MailIcon,
-    // TODO: Remplacer par l'adresse email du cabinet
-    text: "contact@wilaya-dental.ma",
-    href: "mailto:contact@wilaya-dental.ma",
-  },
+  { icon: PhoneIcon, text: "+212 668-142427", href: "tel:+212668142427" },
   {
     icon: MapPinIcon,
-    text: "Villa N°38, Av. Mohamed El Yazidi, Tétouan",
+    text: "Résidence Ain Meloul, Sabbah 5, Appartement 2, Quartier Wilaya, Tétouan",
     href: "#",
   },
-  { icon: ClockIcon, text: "Lun – Ven : 9h00 – 18h00 | Sam : 9h – 13h", href: "" },
+  { icon: ClockIcon, text: "Lun – Ven : 09:00–13:00, 15:00–19:00 | Sam : 09:00–14:00", href: "" },
 ];
 
 export function Footer() {
   const anim = useScrollAnimation("up");
 
   return (
-    <footer id="contact" className="bg-foreground text-white">
+    <footer id="contact" className="bg-[#0F172A] text-white">
       <div ref={anim.refCallback} className={`max-w-7xl mx-auto px-4 py-16 ${anim.animationClass}`}>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
             <div className="mb-6">
-              {/* TODO: Fond blanc ajouté car le logo PNG a un fond opaque — retirer si un logo transparent est fourni */}
               <div className="bg-white rounded-lg p-2 inline-block">
                 <img
                   src={`${BASE_PATH}/images/logo-wilaya.png`}
-                  alt="Wilaya Dental Center Nam"
+                  alt="Cabinet Dr. ZAHIR Nabil"
                   className="h-10 w-auto"
                 />
               </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Clinique dentaire multidisciplinaire à Tétouan. Soins
-              professionnels et personnalisés par Dr. Rachid Nam.
+              Cabinet de chirurgie dentaire à Tétouan. Soins
+              professionnels et personnalisés par le Dr. ZAHIR Nabil.
             </p>
             <div className="flex gap-4">
-              {/* TODO: Ajouter les vrais liens réseaux sociaux du Dr Rachid Nam */}
               <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all-fast hover:bg-accent hover:text-foreground"
-                aria-label="Facebook"
-              >
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all-fast hover:bg-accent hover:text-foreground"
@@ -150,7 +130,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-6 text-center">
           <p className="text-white/50 text-sm">
-            &copy; {new Date().getFullYear()} Wilaya Dental Center. Tous droits réservés.
+            &copy; {new Date().getFullYear()} Cabinet Dr. ZAHIR Nabil. Tous droits réservés.
           </p>
         </div>
       </div>

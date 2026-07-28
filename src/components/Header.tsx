@@ -18,16 +18,16 @@ export function Header() {
   return (
     <header className="relative z-50">
       {/* Top Bar */}
-      <div className="bg-primary text-white text-xs sm:text-sm">
+      <div className="bg-primary text-white text-xs sm:text-sm px-4">
         <div className="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-2 sm:gap-4">
           <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
             <div className="hidden sm:flex items-center gap-2">
               <ClockIcon className="w-4 h-4" />
-              <span>Lun – Ven : 9h00 – 18h00 | Sam : 9h – 13h</span>
+              <span>Lun – Ven : 09:00 – 13:00, 15:00 – 19:00 | Sam : 09:00 – 14:00</span>
             </div>
             <div className="hidden md:flex items-center gap-2">
               <MapPinIcon className="w-4 h-4" />
-              <span>Villa N°38, Av. Mohamed El Yazidi, Tétouan</span>
+              <span>Résidence Ain Meloul, Sabbah 5, Tétouan</span>
             </div>
           </div>
           <div className="flex items-center gap-3 sm:gap-4">
@@ -38,11 +38,11 @@ export function Header() {
               Contactez-nous
             </a>
             <a
-              href="tel:+212668676834"
+              href="tel:+212668142427"
               className="flex items-center gap-2 hover:text-accent transition-colors"
             >
               <PhoneIcon className="w-4 h-4" />
-              <span className="font-semibold">+212 6 68 67 68 34</span>
+              <span className="font-semibold">+212 668-142427</span>
             </a>
           </div>
         </div>
@@ -52,18 +52,18 @@ export function Header() {
       <Marquee />
 
       {/* Main Nav */}
-      <div className="bg-white/95 backdrop-blur-sm shadow-sm">
+      <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-border/40">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">W</span>
+              <span className="text-white font-bold text-lg">Z</span>
             </div>
             <div className="hidden sm:block">
               <span className="font-heading text-xl font-bold text-primary block leading-tight">
-                Wilaya Dental
+                Dr. ZAHIR Nabil
               </span>
               <span className="text-[10px] text-muted-foreground tracking-wider uppercase">
-                Center Nam
+                Chirurgien-Dentiste
               </span>
             </div>
           </a>
@@ -83,10 +83,10 @@ export function Header() {
 
           <div className="flex items-center gap-4">
             <a
-              href="tel:+212668676834"
+              href="tel:+212668142427"
               className="hidden sm:flex items-center gap-2 bg-secondary text-white px-6 py-3 rounded-lg font-semibold text-sm hover:bg-secondary/90 transition-colors"
             >
-              Prenez RDV
+              Appelez
             </a>
             <button
               className="lg:hidden p-2"
@@ -117,7 +117,7 @@ export function Header() {
                 </a>
               ))}
               <a
-                href="tel:+212668676834"
+                href="tel:+212668142427"
                 className="flex items-center justify-center gap-2 bg-secondary text-white px-6 py-3 rounded-lg font-semibold text-sm"
               >
                 Prenez RDV

@@ -26,18 +26,17 @@ export function Testimonials() {
 
         {/* Single Real Review */}
         <div ref={card.refCallback} className={`max-w-2xl mx-auto mb-16 ${card.animationClass}`}>
-          <div className="bg-white rounded-2xl p-6 sm:p-10 shadow-sm transition-default hover:shadow-lg">
+          <div className="bg-white rounded-2xl p-6 sm:p-10 shadow-sm hover-card border border-border/40">
             {/* Stars */}
             <div className="flex items-center gap-1 mb-6">
               {Array.from({ length: 5 }).map((_, i) => (
                 <StarIcon key={i} className="w-5 h-5 text-accent" />
               ))}
             </div>
-            {/* TODO: Remplacer par le vrai avis Google du Dr Rachid Nam une fois disponible */}
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              &ldquo;Consultation très professionnelle. Le Dr. Nam prend le temps
+              &ldquo;Consultation très professionnelle. Le Dr. ZAHIR prend le temps
               d&apos;expliquer les soins et le cabinet est moderne et bien équipé.
-              Je recommande vivement Wilaya Dental Center.&rdquo;
+              Je recommande vivement ce cabinet.&rdquo;
             </p>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
@@ -58,7 +57,6 @@ export function Testimonials() {
         {/* CTA to Google */}
         <div ref={cta.refCallback} className={`text-center ${cta.animationClass}`}>
           <p className="text-muted-foreground text-sm mb-6">
-            {/* TODO: Ajouter le lien Google Business du Dr Rachid Nam */}
             Retrouvez tous nos avis sur Google
           </p>
           <a

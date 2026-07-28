@@ -16,9 +16,9 @@ const libreCaslon = Libre_Caslon_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Wilaya Dental Center Nam — Dentiste à Tétouan | Dr. Rachid Nam",
+  title: "Cabinet Dr. ZAHIR Nabil — Chirurgien-Dentiste à Tétouan",
   description:
-    "Clinique dentaire multidisciplinaire à Tétouan. Implantologie, esthétique, orthodontie et soins généraux par Dr. Rachid Nam. Cabinet moderne et équipé.",
+    "Cabinet de chirurgie dentaire du Dr. ZAHIR Nabil à Tétouan. Ancien médecin-chef des services sociaux militaires. Implantologie, orthodontie, esthétique, prothèses, parodontie et soins généraux.",
 };
 
 export default function RootLayout({

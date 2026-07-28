@@ -16,7 +16,7 @@ export function Cta() {
           Demandez Votre Plan de Soins Sur Mesure
         </h2>
         <a
-          href="tel:+212668676834"
+          href="tel:+212668142427"
           className="inline-flex items-center gap-2 bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base transition-all-fast hover:bg-primary/90 hover:shadow-lg hover:-translate-y-0.5 min-h-[44px]"
         >
           Contactez-nous

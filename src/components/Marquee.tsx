@@ -3,12 +3,13 @@
 export function Marquee() {
   // TODO: le client pourra ajouter de vrais chiffres ici (nombre de patients, années d'expérience, etc.)
   const items = [
-    "Wilaya Dental Center Nam",
-    "Dr. Rachid Nam",
-    "Clinique Dentaire Multidisciplinaire",
-    "Tétouan — Quartier de la Wilaya",
-    "+212 6 68 67 68 34",
-    "Lun – Ven : 9h00 – 18h00 | Sam : 9h – 13h",
+    "Cabinet Dr. ZAHIR Nabil",
+    "Chirurgien-Dentiste à Tétouan",
+    "Ancien médecin-chef des services sociaux militaires",
+    "Implantologie · Orthodontie · Esthétique · Prothèses · Parodontie · Soins Généraux",
+    "Résidence Ain Meloul, Sabbah 5, Quartier Wilaya, Tétouan",
+    "+212 668-142427",
+    "Lun – Ven : 09:00–13:00, 15:00–19:00 | Sam : 09:00–14:00",
   ];
 
   return (

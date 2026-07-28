@@ -5,9 +5,9 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { BASE_PATH } from "@/lib/utils";
 
 const features = [
-  { icon: ShieldIcon, text: "Équipements de dernière génération" },
-  { icon: AwardIcon, text: "Imagerie radiologique 3D / CBCT intégrée" },
-  { icon: HeartIcon, text: "Approche patient centrée" },
+  { icon: ShieldIcon, text: "6 domaines de spécialités dentaires" },
+  { icon: AwardIcon, text: "Ancien médecin-chef des services sociaux militaires" },
+  { icon: HeartIcon, text: "Approche personnalisée et bienveillante" },
 ];
 
 const accessibility = [
@@ -31,22 +31,22 @@ export function About() {
               À propos
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mt-4 mb-6 leading-tight">
-              Wilaya Dental Center Nam
+              Cabinet Dr. ZAHIR Nabil
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed mb-4">
-              {/* TODO: donnée client manquante — paragraphe détaillé sur le Dr. Rachid Nam et le cabinet à valider avec le client */}
-              Clinique dentaire multidisciplinaire située dans le Quartier de la Wilaya à
-              Tétouan. Le Dr. Rachid Nam et son équipe vous offrent des soins dentaires
-              complets dans un environnement moderne et rassurant.
+              Ancien médecin-chef des services sociaux militaires de Tétouan, le Dr. ZAHIR Nabil met son expertise et son engagement au service de votre santé bucco-dentaire. Son cabinet situé au Quartier Wilaya vous accueille dans un cadre moderne et rassurant.
             </p>
             <p className="text-muted-foreground text-base leading-relaxed mb-8">
-              Omnipratique, implantologie, esthétique et orthodontie — notre centre
-              combine expertise médicale et technologies de pointe pour votre bien-être.
+              Implantologie, orthodontie, esthétique dentaire, prothèses, parodontie et soins généraux — une approche pluridisciplinaire complète pour toute la famille.
             </p>
 
             <div className="flex flex-col gap-4 mb-8">
-              {features.map((feature) => (
-                <div key={feature.text} className="flex items-center gap-3 transition-default">
+              {features.map((feature, i) => (
+                <div
+                  key={feature.text}
+                  className="flex items-center gap-3 transition-default"
+                  style={{ animationDelay: `${i * 0.15}s` }}
+                >
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 transition-default hover:bg-primary/20">
                     <feature.icon className="w-5 h-5 text-primary" />
                   </div>
@@ -74,17 +74,17 @@ export function About() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+212668676834"
+                href="tel:+212668142427"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-4 rounded-lg font-semibold text-base transition-all-fast hover:bg-primary/90"
               >
                 <PhoneIcon className="w-5 h-5" />
                 Contactez-nous
               </a>
               <a
-                href="tel:+212668676834"
+                href="tel:+212668142427"
                 className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary px-8 py-4 rounded-lg font-semibold text-base transition-all-fast hover:bg-primary hover:text-white"
               >
-                +212 6 68 67 68 34
+                +212 668-142427
               </a>
             </div>
           </div>
@@ -94,12 +94,11 @@ export function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white p-8 transition-default hover:shadow-3xl">
               <img
                 src={`${BASE_PATH}/images/logo-wilaya.png`}
-                alt="Wilaya Dental Center Nam"
+                alt="Cabinet Dr. ZAHIR Nabil"
                 className="w-full h-auto object-contain transition-default hover:scale-105"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-accent text-foreground px-6 py-4 rounded-xl shadow-lg transition-default hover:scale-105">
-              {/* TODO: donnée client manquante — remplacer par le vrai chiffre du Dr Rachid Nam */}
               <div className="text-2xl font-bold">—</div>
               <div className="text-sm font-medium">Années d&apos;expérience</div>
             </div>
